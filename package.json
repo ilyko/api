@@ -1,0 +1,37 @@
+{
+  "name": "movesht",
+  "version": "1.0.0",
+  "description": "transportation and logistic in USA",
+  "main": "server.js",
+  "scripts": {
+    "test": "https://github.com/ilyko/MoveShtServer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyko/MoveShtServer.git"
+  },
+  "keywords": [
+    "moveSht"
+  ],
+  "author": "Slava Ilchenko <ilyko17@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyko/MoveShtServer/issues"
+  },
+  "homepage": "https://github.com/ilyko/MoveShtServer#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.12.1",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
